@@ -1,4 +1,4 @@
-<p align="center"><a href="https://lesbonsdeals.com" target="_blank"><img src="./.github_images/app-logo.png" width="400" alt="App Logo"></a></p>
+<p align="center"><a href="https://lesbonsdeals.com" target="_blank"><img src="./.github_images/app-logo.png" width="400" heigth="200" alt="App Logo"></a></p>
 
 
 ## Presentation
@@ -22,7 +22,10 @@ yarn
 
 
 ## Structure du projet
-
+Le projet se structure comme suit :
+```bash
+tree -L 3
+```
 
 ## Contexte
 
