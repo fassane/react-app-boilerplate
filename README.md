@@ -1,4 +1,4 @@
-<p align="center"><a href="https://lesbonsdeals.com" target="_blank"><img src="./.github_images/lesbonsdeals.png" width="400" alt="LesBonsDeals Logo"></a></p>
+<p align="center"><a href="https://lesbonsdeals.com" target="_blank"><img src="./.github_images/app-logo.png" width="400" alt="App Logo"></a></p>
 
 
 ## Presentation
