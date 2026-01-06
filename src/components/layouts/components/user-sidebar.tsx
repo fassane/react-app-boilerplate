@@ -3,7 +3,6 @@ import {
     SidebarContent,
     SidebarFooter,
     SidebarGroup,
-    SidebarGroupAction,
     SidebarGroupContent,
     SidebarGroupLabel,
     SidebarHeader,
@@ -95,14 +94,7 @@ export function UserSidebar() {
                         </SidebarMenu>
                     </SidebarGroupContent>
                 </SidebarGroup>
-                <SidebarGroup>
-                    <SidebarGroupLabel asChild>Projects</SidebarGroupLabel>
-                    <SidebarGroupAction title="Add Project">
-                        <Plus /> 
-                        <span className="sr-only">Add Project</span>
-                    </SidebarGroupAction>
-                    <SidebarGroupContent />
-                </SidebarGroup>
+
             </SidebarContent>
             <SidebarFooter />
         </Sidebar>
