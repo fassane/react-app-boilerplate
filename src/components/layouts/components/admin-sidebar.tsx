@@ -30,67 +30,67 @@ const items = [
     {
         id: "dashbord",
         title: "Tableau de bord",
-        url: "#",
+        link: "#",
         icon: LayoutDashboard,
     },
     {
         id: "category",
         title: "Categories",
-        url: "#",
+        link: "#",
         icon: ChartBarStacked,
     },
     {
         id: "products",
         title: "Produits",
-        url: "#",
+        link: "#",
         icon: ShoppingBasket,
     },
     {
         id: "users",
         title: "Utilisateurs",
-        url: "#",
+        link: "users",
         icon: Users,
     },
     {
         id: "analystics",
         title: "Analyses",
-        url: "#",
+        link: "#",
         icon: ChartNoAxesCombined,
     },
     {
         id: "didi",
         title: "Didi",
-        url: "#",
+        link: "#",
         icon: Split,
     },
     {
         id: "dinos",
         title: "Dinos",
-        url: "#",
+        link: "#",
         icon: Speech,
     },
     {
         id: "calendar",
         title: "Calendrier",
-        url: "#",
+        link: "#",
         icon: Calendar,
     },
     {
         id: "message",
         title: "Messages",
-        url: "#",
+        link: "#",
         icon: Inbox,
     },
     {
         id: "search",
         title: "Rechercher",
-        url: "#",
+        link: "#",
         icon: Search,
     },
     {
         id: "settings",
         title: "Settings",
-        url: "#",
+        link: "#",
         icon: Settings,
     },
 ]
@@ -108,7 +108,7 @@ export function AdminSidebar() {
                         {items.slice(0, 7).map((item) => (
                             <SidebarMenuItem key={item.id}>
                                 <SidebarMenuButton asChild>
-                                    <Link to={item.url}>
+                                    <Link to={item.link}>
                                         <item.icon />
                                         <span>{item.title}</span>
                                     </Link>
@@ -125,7 +125,7 @@ export function AdminSidebar() {
                         {items.slice(8, 11).map((item) => (
                             <SidebarMenuItem key={item.id}>
                                 <SidebarMenuButton asChild>
-                                    <Link to={item.url}>
+                                    <Link to={item.link}>
                                         <item.icon />
                                         <span>{item.title}</span>
                                     </Link>

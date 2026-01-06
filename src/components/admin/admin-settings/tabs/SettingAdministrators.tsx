@@ -1,4 +1,3 @@
-import AdministratorTable from '../../Tables/Administrator/AdministratorTable';
 
 
 const SettingAdministrators = () => {
@@ -9,7 +8,7 @@ const SettingAdministrators = () => {
                     
                 </div>
                 <div className="table__wrapper">
-                    <AdministratorTable />
+                    
                 </div>
             </div>
         </div>

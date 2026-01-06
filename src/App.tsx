@@ -5,10 +5,10 @@ import { AppRoutes } from "./routes/router";
 
 
 const ScrollToTop = () => {
-    const location = useLocation();
+    let { pathname } = useLocation();
     React.useEffect(() => {
         window.scrollTo(0, 0);
-    }, [location?.pathname]);
+    }, [pathname]);
     return null;
 };
 

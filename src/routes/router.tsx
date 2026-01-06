@@ -16,6 +16,7 @@ import AdminLayout from "@/components/layouts/AdminLayout";
 import UserLayout from "@/components/layouts/UserLayout";
 import UserMessage from "@/components/user/UserMessage/UserMessage";
 import UserDashboard from "@/components/user/UserDashboard/UserDashboard";
+import UsersList from "@/components/admin/admin-users/UsersList";
 
 
 export const AppRoutes = [
@@ -59,6 +60,10 @@ export const AppRoutes = [
             {
                 path: "dashboard",
                 element: <AdminDashboard />
+            },
+            {
+                path: "users",
+                element: <UsersList />
             },
             {
                 path: "contact",

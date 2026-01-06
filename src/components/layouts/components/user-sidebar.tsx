@@ -24,31 +24,31 @@ const items = [
     {
         id: "dashbord",
         title: "Tableau de bord",
-        url: "#",
+        link: "#",
         icon: LayoutDashboard,
     },
     {
         id: "products",
         title: "Produits",
-        url: "#",
+        link: "#",
         icon: ShoppingBasket,
     },
     {
         id: "calendar",
         title: "Calendrier",
-        url: "#",
+        link: "#",
         icon: Calendar,
     },
     {
         id: "message",
         title: "Messages",
-        url: "#",
+        link: "#",
         icon: Inbox,
     },
     {
         id: "search",
         title: "Rechercher",
-        url: "#",
+        link: "#",
         icon: Search,
     },
 ]
@@ -66,7 +66,7 @@ export function UserSidebar() {
                         {items.slice(0, 3).map((item) => (
                             <SidebarMenuItem key={item.id}>
                                 <SidebarMenuButton asChild>
-                                    <Link to={item.url}>
+                                    <Link to={item.link}>
                                         <item.icon />
                                         <span>{item.title}</span>
                                     </Link>
@@ -83,7 +83,7 @@ export function UserSidebar() {
                         {items.slice(3, 6).map((item) => (
                             <SidebarMenuItem key={item.id}>
                                 <SidebarMenuButton asChild>
-                                    <Link to={item.url}>
+                                    <Link to={item.link}>
                                         <item.icon />
                                         <span>{item.title}</span>
                                     </Link>
