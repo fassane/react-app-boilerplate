@@ -4,7 +4,7 @@ import {
     SidebarTrigger
 } from "@/components/ui/sidebar";
 import { Outlet } from 'react-router-dom';
-import { AppSidebar } from "./components/admin-sidebar";
+import { AdminSidebar } from "./components/admin-sidebar";
 
 
 const AdminLayout = () => {
@@ -22,10 +22,12 @@ const AdminLayout = () => {
                     } as React.CSSProperties
                 }
             >
-                <AppSidebar />
+                <AdminSidebar />
                 <SidebarInset>
                     <SidebarTrigger />
-                    {/* <Outlet /> */}
+                    <div className="p-2 pt-5">
+                        <Outlet />
+                    </div>
                 </SidebarInset>
             </SidebarProvider>
 

@@ -4,7 +4,7 @@ import {
     SidebarTrigger
 } from "@/components/ui/sidebar";
 import { Outlet } from 'react-router-dom';
-import { AppSidebar } from "./components/admin-sidebar";
+import { UserSidebar } from "./components/user-sidebar";
 
 
 const UserLayout = () => {
@@ -21,10 +21,10 @@ const UserLayout = () => {
                 } as React.CSSProperties
             }
         >
-            <AppSidebar />
+            <UserSidebar />
             <SidebarInset>
                 <SidebarTrigger />
-                <div className="p-3">
+                <div className="p-3 pt-5">
                     <Outlet />
                 </div>
             </SidebarInset>

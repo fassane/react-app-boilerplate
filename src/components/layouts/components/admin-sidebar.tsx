@@ -96,7 +96,7 @@ const items = [
 ]
 
 
-export function AppSidebar() {
+export function AdminSidebar() {
     return (
         <Sidebar variant="inset">
             <SidebarHeader />

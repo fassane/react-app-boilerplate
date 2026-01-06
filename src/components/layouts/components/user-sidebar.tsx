@@ -12,16 +12,10 @@ import {
 } from "@/components/ui/sidebar"
 import {  
     LayoutDashboard, 
-    ChartBarStacked,
     ShoppingBasket,
-    Users,
-    ChartNoAxesCombined,
-    Split,
-    Speech,
     Calendar,
     Inbox, 
     Search, 
-    Settings 
 } from "lucide-react"
 import { Link } from "react-router-dom"
    
@@ -32,12 +26,6 @@ const items = [
         title: "Tableau de bord",
         url: "#",
         icon: LayoutDashboard,
-    },
-    {
-        id: "category",
-        title: "Categories",
-        url: "#",
-        icon: ChartBarStacked,
     },
     {
         id: "products",
@@ -66,7 +54,7 @@ const items = [
 ]
 
 
-export function AppSidebar() {
+export function UserSidebar() {
     return (
         <Sidebar variant="inset">
             <SidebarHeader />
@@ -75,7 +63,7 @@ export function AppSidebar() {
                     <SidebarGroupLabel>Application</SidebarGroupLabel>
                     <SidebarGroupContent>
                         <SidebarMenu>
-                        {items.slice(0, 4).map((item) => (
+                        {items.slice(0, 3).map((item) => (
                             <SidebarMenuItem key={item.id}>
                                 <SidebarMenuButton asChild>
                                     <Link to={item.url}>
@@ -92,7 +80,7 @@ export function AppSidebar() {
                     <SidebarGroupLabel>Autres</SidebarGroupLabel>
                     <SidebarGroupContent>
                         <SidebarMenu>
-                        {items.slice(5, 6).map((item) => (
+                        {items.slice(3, 6).map((item) => (
                             <SidebarMenuItem key={item.id}>
                                 <SidebarMenuButton asChild>
                                     <Link to={item.url}>
