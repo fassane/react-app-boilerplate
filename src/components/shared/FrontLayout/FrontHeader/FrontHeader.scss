@@ -1,0 +1,106 @@
+@use "../../../Sass/variables.scss" as variables;
+@use "../../../Sass/fonts.scss" as fonts;
+
+
+
+header.front__header {
+    background-color: #fff;
+    margin: 5px 2rem 0 2rem;
+    border-radius: 6px;
+    box-shadow: 0px 4px 25px 0px rgba(8, 37, 103, 0.1);
+    z-index: 1;
+
+    .header-content {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .link_item {
+        padding: 10px 20px;
+        margin: 0 6px;
+        color: variables.$dark-min-color;
+        position: relative;
+    }
+
+    .link_item.active:after {
+        content: "";
+        width: calc(100% - 20px);
+        height: 4px;
+        background-color: variables.$primary-color;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+
+    .link_item:hover {
+        color: variables.$primary-color;
+    }
+
+    svg {
+        width: 18px;
+        height: 18px;
+    }
+
+    .head_side {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cart_container {
+        border: 1px solid variables.$dark-min-color;
+        padding: 8px 15px;
+        margin-left: 15px;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        column-gap: 5px;
+        cursor: pointer;
+    }
+
+    .cart_container:hover {
+        border-color: variables.$primary-color;
+        color: variables.$primary-color;
+    }
+
+    .header__login_btn {
+        transition: .3s ease;
+        font-weight: 700;
+        color: variables.$dark-min-color;
+    }
+
+    .header__login_btn:hover {
+        color: variables.$primary-color;
+    }
+
+    
+}
+
+
+
+
+
+
+@media (max-width: 575px) {
+    header {
+        margin: 0;
+        border-top-right-radius: 0;
+        border-top-left-radius: 0;
+    }
+    header .logo img, footer .logo_img {
+        width: 100px;
+        height: 35px;
+    }
+}
+
+@media (max-width: 767px) {
+    .banner h1 {
+        text-align: center;
+    }
+    .custom_banner .card_wrapper {
+        padding-top: 1rem;
+    }
+}

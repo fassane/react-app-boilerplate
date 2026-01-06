@@ -1,0 +1,41 @@
+@use "./components/Sass/fonts.scss" as fonts;
+@use "./components/Sass/variables.scss" as variables;
+
+* {
+    box-sizing: border-box;
+}
+
+.custom-form-label {
+    font-size: 14px;
+    color: #1d2026;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.custom-form-control {
+    border-radius: 8px !important;
+    border: 1px solid #e9eaf0;
+    background: #ffffff;
+    color: #1d2026;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    padding: 14px 20px;
+}
+
+.custom-form-control:focus {
+    border-color: variables.$primary-color;
+}
+
+.bg_colgate {
+    background-color: #ffffff;
+}
+
+.flex_content {
+    display: flex;
+    align-items: center;
+}
+
+.justify_text {
+    text-align: justify;
+}

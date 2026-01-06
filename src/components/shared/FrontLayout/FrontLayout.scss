@@ -1,0 +1,51 @@
+@use "../../Sass/fonts.scss" as fonts;
+@use "../../Sass/variables.scss" as variables;
+@use "../../Sass/app.scss" as app;
+
+
+.logo img, 
+footer .logo_img {
+    width: 150px;
+    height: 50px;
+}
+
+.page_section {
+    position: relative;
+    padding: 3rem 0;
+}
+
+.page_bigpadding_section {
+    position: relative;
+    padding: 8rem 0;
+}
+
+.semi__half_content {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.half_content {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.custom__text {
+    color: #4f4f4f;
+}
+
+.justify__text {
+    text-align: justify;
+}
+
+
+/*
+    ============================================================
+    ======================= Responsive =========================
+    ============================================================
+*/
+
+// ========================== Header ===========================
+
+
+
+// ========================== Footer ===========================

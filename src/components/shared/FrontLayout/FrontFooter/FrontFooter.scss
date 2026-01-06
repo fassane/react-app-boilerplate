@@ -1,0 +1,52 @@
+@use "../../../Sass/variables.scss" as variables;
+@use "../../../Sass/fonts.scss" as fonts;
+
+
+/* 
+    ################# footer ##################
+*/
+footer {
+    
+    .main_footer {
+        padding: 3rem 0;
+        background-color: #343a34;
+        color: #fff;
+    }
+
+    h3 {
+        font-size: 1.3rem;
+        font-weight: 800;
+    }
+    
+    .about {
+        margin-top: 1.5rem;
+    }
+    .help {
+        margin-top: 1.5rem;
+        .title {
+            margin-bottom: 20px;
+        }
+    }
+
+    p a {
+        text-decoration: none;
+        color: #fff;
+    }
+    
+    .footer_foot {
+        padding: 1rem 0;
+        background-color: #F88E55;
+        color: #fff;
+        text-align: center;
+        font-weight: 700;
+    }
+}
+
+
+@media (max-width: 991px) {
+    footer {
+        .society {
+            padding-top: 2.5rem;
+        }
+    }
+}

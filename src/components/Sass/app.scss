@@ -1,0 +1,133 @@
+@use "./fonts.scss" as fonts;
+@use "./variables.scss" as variables;
+
+
+body::-webkit-scrollbar {
+    width: 6px;
+}
+body::-webkit-scrollbar-track {
+    background: #fff;
+}
+body::-webkit-scrollbar-thumb {
+    background-color: variables.$primary-color;
+    border-radius: 20px;
+    border: 3px solid transparent;
+}
+
+::selection {
+    color: variables.$primary-color;
+    background: rgba(45, 156, 219, 0.15);
+}
+
+
+body {
+    font-size: 14px;
+    font-family: "Ubuntu";
+}
+
+
+
+.page_section {
+    position: relative;
+    padding: 3rem 0;
+}
+
+
+.custom_title__wrapper {
+    padding: 1rem 0 3rem;
+    position: relative;
+
+    .title {
+        text-transform: uppercase;
+        font-size: 2.8rem;
+        color: #000;
+        text-align: left;
+        font-weight: 700;
+    }
+
+    p {
+        position: relative;
+        margin: 0;
+        padding-left: 5rem;
+        color: #343a34;
+        font-weight: 400;
+    }
+
+    p:before, p:after {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 50%;
+    }
+
+    p:before {
+        width: 4.5rem;
+        height: 3px;
+        background: linear-gradient(to right, #eeeeee 0, #bababa 35%, #999 65%, #212121 100%);
+    }
+
+    p:after {
+        width: 7px;
+        height: 7px;
+        border-radius: 50%;
+        background-color: #343a34;
+        top: 40%;
+    }
+
+    .lbd_title__description {
+        font-size: 1.1rem;
+        color: #343a34;
+        font-family: Poppins;
+        text-align: left;
+        padding-left: 3rem;
+    }
+
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.primary-link {
+    color: variables.$primary-color;
+}
+.primary-link:hover {
+    color: inherit;
+}
+
+.flex_content {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.custom_form__check {
+    color: #8c94a3;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.custom_form__check input {
+    width: 17px;
+    height: 17px;
+}
+
+.custom_form__check input:checked {
+    border-color: variables.$primary-color;
+    background-color: variables.$primary-color;
+    box-shadow: none;
+}
+
+.custom_form__check label {
+    margin: 2px 0 0 4px;
+}
+
+.container {
+    --gutter-x: 1.5rem;
+    --gutter-y: 0;
+    width: 100%;
+    padding-right:calc(var(--gutter-x) * .5);
+    padding-left:calc(var(--gutter-x) * .5);
+    margin: 0 auto;
+}

@@ -1,0 +1,91 @@
+@use "../../Sass/variables.scss" as variables;
+
+
+.theme__btn, .cancel__btn {
+    color: variables.$primary-color;
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.56px;
+    padding: 12px 15px;
+    border-radius: 32px;
+    transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    -webkit-border-radius: 32px;
+    -moz-border-radius: 32px;
+    -ms-border-radius: 32px;
+    -o-border-radius: 32px;
+}
+
+.cancel__btn {
+    color: #333333;
+}
+
+.theme__btn {
+    background: rgba(0, 158, 219, 0.12);
+}
+
+.theme__btn:hover {
+    border-color: variables.$primary-color;
+    background: transparent;
+    color: variables.$primary-color;
+}
+
+.cancel__btn:hover {
+    border-color: #333333;
+}
+
+.modal__btn, 
+.cancel__btn {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.modal__btn {
+    padding: 14px 60px !important;
+    background-color: variables.$primary-color;
+    color: #ffffff;
+}
+
+.cancel__btn {
+    color: #333333;
+}
+
+.go_back__btn {
+    padding: 10px 24px;
+    border-radius: 10px;
+    color: #121212;
+    font-size: 15px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.go_back__btn:hover {
+    color: variables.$primary-color;
+}
+
+
+.large__btn {
+    padding: 12px 1rem;
+    border: 1px solid transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+    background-color: variables.$primary-color;
+    border-radius: 10px;
+    width: 100%;
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.large__btn:hover {
+    color: variables.$primary-color;
+    background-color: transparent;
+    border-color: variables.$primary-color;
+}

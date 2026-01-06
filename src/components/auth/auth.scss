@@ -1,0 +1,43 @@
+@use "../Sass/variables.scss" as variables;
+
+
+.auth__wrapper {
+    height: 90vh;
+
+
+    form .icon__wrapper {
+        bottom: 0;
+        display: grid;
+        margin: auto 0;
+        place-items: center;
+        position: absolute;
+        right: 12px;
+        top: 0;
+        z-index: 10;
+    }
+
+}
+
+.text__bg {
+    width: 50%;
+    float: right;
+    padding-left: 21rem;
+    display: flex;
+    align-items: center;
+    height: 92vh;
+    .welcome__text {
+        color: #ffffff;
+        font-weight: 800;
+    }
+}
+
+.social__btn {
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    column-gap: 10px;
+    padding: 8px 1rem;
+    font-size: 13px;
+}

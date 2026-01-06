@@ -1,0 +1,17 @@
+@use "../../Sass/variables.scss" as variables;
+
+.splash__loader {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: variables.$splash-bg;
+
+    img {
+        width: 210px;
+    }
+    p {
+        font-size: 1rem;
+        color: #ffffff;
+        text-align: center;
+    }
+}

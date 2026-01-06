@@ -1,0 +1,26 @@
+@use "../../Sass/variables.scss" as variables;
+@use "../../Sass/fonts.scss" as fonts;
+
+
+.empty_alert__content {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    align-items: center;
+    padding: 30px 15px;
+    background: variables.$alert-bg;
+    border-radius: 10px;
+
+    p {
+        margin-bottom: 0;
+        color: variables.$alert-color;
+        font-weight: 500;
+    }
+    .empty_alert__icon {
+        font-size: 50px;
+        color: variables.$alert-color;
+        font-weight: 900;
+    }
+    
+}
+
