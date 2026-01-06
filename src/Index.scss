@@ -26,6 +26,9 @@
 .custom-form-control:focus {
     border-color: variables.$primary-color;
 }
+.custom-form-control:focus-visible {
+    box-shadow: none;
+}
 
 .bg_colgate {
     background-color: #ffffff;
