@@ -1,15 +1,15 @@
 import { Navigate } from "react-router-dom";
 
-import AdminDashboard from "@/components/admin/AdminDashboard/AdminDashboard";
-import AdminSettings from "@/components/admin/AdminSettings/AdminSettings";
-import SettingAdministrators from "@/components/admin/AdminSettings/tabs/SettingAdministrators";
-import SettingOptions from "@/components/admin/AdminSettings/tabs/SettingOptions";
+import AdminDashboard from "@/components/admin/admin-dashboard/AdminDashboard";
+import AdminSettings from "@/components/admin/admin-settings/AdminSettings";
+import SettingAdministrators from "@/components/admin/admin-settings/tabs/SettingAdministrators";
+import SettingOptions from "@/components/admin/admin-settings/tabs/SettingOptions";
 import FrontLayout from "@/components/shared/FrontLayout/FrontLayout";
 import Home from "@/components/front/Home/Home";
-import AdminProfile from "@/components/admin/AdminProfile/AdminProfile";
+import AdminProfile from "@/components/admin/admin-profile/AdminProfile";
 import NotFound from "@/components/shared/NotFound";
 import Login from "@/components/auth/Login";
-import MessagesContactAdmin from "@/components/admin/MessageContact/MessageContactAdmin";
+import MessagesContactAdmin from "@/components/admin/message-contact/MessageContactAdmin";
 import ForgotPassword from "@/components/auth/ForgotPassword";
 
 import AdminLayout from "@/components/layouts/AdminLayout";

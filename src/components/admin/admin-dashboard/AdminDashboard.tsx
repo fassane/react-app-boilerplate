@@ -11,7 +11,7 @@ const AdminDashboard = () => {
                     Tableau de bord
                 </h2>
                 <p className="m-0 admin_welcome__paragraph">
-                    Hi, Fatoumata, welcome on Boil Admin!
+                    Hi, Fatoumata, welcome on Boilerplate Admin!
                 </p>
             </div>
             <div className="custom_content__wrapper">

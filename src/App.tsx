@@ -1,6 +1,7 @@
 import React from "react";
 import { useLocation, useRoutes } from "react-router-dom";
 import { AppRoutes } from "./routes/router";
+import { Toaster } from "@/components/ui/sonner"
 
 
 
@@ -21,6 +22,7 @@ function App() {
         <div className="app-wrapper">
             <ScrollToTop />
             {routes}
+            <Toaster />
         </div>
     )
 
