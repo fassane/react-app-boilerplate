@@ -1,4 +1,4 @@
-<p align="center"><a href="https://lesbonsdeals.com" target="_blank"><img src="./.github_images/app-logo.png" width="400" heigth="300" alt="App Logo"></a></p>
+<p align="center"><a href="#" target="_blank"><img src="./.github_images/app-logo.png" width="400" heigth="300" alt="App Logo"></a></p>
 
 
 ## Presentation
@@ -8,7 +8,7 @@
 ## Installation
 Ce projet a été conçu en utilisant *Vite*, *ReactJS*, *TypeScript*, *Shadcn UI*, *TailwindCSS*, *Redux* <br>
 Prière de bien vouloir vérifier les configurations préréquises sur
-les documentations officielles de [Vite](https://...), de [ReactJS](https://react.dev), de [Redux](https://redux.js.org/), de [Redux Toolkit](https://redux-toolkit.js.org/), de [Shadcn UI](https://ui.shadcn.com/docs), de [TailwindCSS](https://tailwindcss.com/docs/).
+les documentations officielles de [Vite](https://vite.dev), de [ReactJS](https://react.dev), de [Redux](https://redux.js.org/), de [Redux Toolkit](https://redux-toolkit.js.org/), de [Shadcn UI](https://ui.shadcn.com/docs), de [TailwindCSS](https://tailwindcss.com/docs/).
 
 #### Cloner le projet
 ```shell

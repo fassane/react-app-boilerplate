@@ -31,7 +31,7 @@ const FrontFooter = () => {
                         </div>
                         <div className="col-md-4 col-xs-3 about">
                             <h3 className="title">
-                                A propos de LesBonsDeals
+                                A propos de Boilerplate
                             </h3>
                             <div className="content">
                                 Atteignez de nouveaux clients et développez votre 
