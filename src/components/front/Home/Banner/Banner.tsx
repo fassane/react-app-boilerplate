@@ -8,7 +8,7 @@ const Banner = () => {
             <div className="banner">
                 <div className="container">
                     <h1 className="banner-title">
-                        Bienvenue chez LesBonsDeals
+                        Bienvenue chez Boilerplate
                     </h1>
                 </div>
             </div>
